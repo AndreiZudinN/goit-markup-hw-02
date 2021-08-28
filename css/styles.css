@@ -55,7 +55,10 @@ body {
   background-color: #2f303a;
   color: #ffffff;
   letter-spacing: 0.06em;
-  font-style: Black;
+  text-align: center;
+}
+.hero-title {
+  font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
 }
@@ -64,7 +67,7 @@ body {
   color: #ffffff;
   font-family: inherit;
   letter-spacing: inherit;
-  font-style: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
   cursor: pointer;
@@ -74,9 +77,10 @@ body {
 }
 .section-title {
   color: var(--title-text-color);
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.7;
+  text-align: center;
 }
 .list {
   list-style: none;
@@ -86,7 +90,7 @@ body {
 }
 /* Skills */
 .skills .title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.2;
 }
