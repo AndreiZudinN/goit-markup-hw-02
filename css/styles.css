@@ -1,0 +1,86 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+}
+/* цвет заголовков #212121 */
+/* цвет текста #757575 */
+/* цвет акцента #2196F3 */
+/* Белый #FFFFFF */
+body {
+  background-color: #ffffff;
+  color: var(--primary-text-color);
+}
+/* logo */
+.logo {
+  color: var(--accent-color);
+}
+.logo-part {
+  color: #000000;
+}
+
+/* site-nav */
+.site-nav .link {
+  color: var(--title-text-color);
+}
+.site-nav :hover,
+.site-nav :focus {
+  color: var(--accent-color);
+}
+.auth-nav .link {
+  color: var(--primary-text-color);
+}
+.auth-nav :hover,
+.auth-nav :focus {
+  color: var(--accent-color);
+}
+/* Hero */
+.hero {
+  background-color: #2f303a;
+  color: #ffffff;
+}
+.hero-button {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+/* Section */
+.section {
+}
+.section-title {
+  color: var(--title-text-color);
+}
+.list {
+  list-style: none;
+}
+.title {
+  color: var(--title-text-color);
+}
+/* Skills */
+
+/* team */
+.team {
+  background-color: #f5f4fa;
+}
+/* footer */
+.footer {
+  background-color: #2f303a;
+}
+.logo-footer {
+  color: #ffffff;
+}
+.footer-adress p {
+  color: #ffffff;
+}
+.footer-adress .link {
+  color: var(--primary-text-color);
+}
+/* ПОРТФОЛИО */
+.portfolio-nav {
+  color: var(--title-text-color);
+}
+.portfolio-nav :hover {
+  color: var(--accent-color);
+}
+.portfolio-button {
+  background-color: #f5f4fa;
+}
